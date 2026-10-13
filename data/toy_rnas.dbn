@@ -1,0 +1,16 @@
+# Toy RNAs for explaining CoSTAR. Made up for illustration; not real molecules.
+# Format: ">name", then the sequence, then the structure (dot-bracket).
+#   "(" pairs with its ")", "[" pairs with its "]", "." is unpaired.
+#
+# A: two crossing stems (an H-type pseudoknot)
+# B: like A, but the first stem has one extra pair, plus an extra hairpin at the 3' end
+# C: the first stem and the hairpin, but no crossing partner
+>A
+GGGGAAAAGCGCAAAACCCCAAAAGCGC
+((((....[[[[....))))....]]]]
+>B
+GGGGGAAAAGCGCAAAACCCCCAAAAGCGCAAGAGAAAAAUCUC
+(((((....[[[[....)))))....]]]]..((((....))))
+>C
+GGGGAAAAAAAAAAAACCCCAAGAGAAAAAUCUC
+((((............))))..((((....))))
